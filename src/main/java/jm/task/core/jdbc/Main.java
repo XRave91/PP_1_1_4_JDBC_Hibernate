@@ -23,6 +23,8 @@ public class Main {
                 System.out.println(u.toString());
             }
         }
+//        srv.cleanUsersTable();
         srv.dropUsersTable();
+        lst =  srv.getAllUsers();
     }
 }
